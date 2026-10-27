@@ -1,0 +1,101 @@
+first_name,last_name,email,phone,department,designation,salary,date_joined
+Ahmed,Ali,ahmed.ali@company.com,+92 300 1234567,Engineering,Senior Software Engineer,250000,2024-01-15
+Fatima,Khan,fatima.khan@company.com,+92 321 2345678,Product,Product Manager,220000,2023-11-02
+Muhammad,Usman,muhammad.usman@company.com,+92 333 3456789,Design,Senior UI/UX Designer,180000,2024-03-10
+Ayesha,Siddiqui,ayesha.siddiqui@company.com,+92 345 4567890,Engineering,Frontend Developer,150000,2023-08-21
+Bilal,Sheikh,bilal.sheikh@company.com,+92 300 5678901,Marketing,Marketing Specialist,120000,2024-02-14
+Zainab,Tariq,zainab.tariq@company.com,+92 321 6789012,Sales,Account Executive,140000,2023-05-19
+Hassan,Raza,hassan.raza@company.com,+92 333 7890123,HR,HR Generalist,110000,2024-04-01
+Sana,Malik,sana.malik@company.com,+92 345 8901234,Engineering,Backend Developer,180000,2023-09-15
+Ali,Hussain,ali.hussain@company.com,+92 300 9012345,Finance,Financial Analyst,160000,2024-01-08
+Hira,Abbasi,hira.abbasi@company.com,+92 321 0123456,Product,Associate Product Manager,150000,2023-12-11
+Omar,Farooq,omar.farooq@company.com,+92 333 1234560,Design,UX Researcher,160000,2024-02-28
+Mariam,Nawaz,mariam.nawaz@company.com,+92 345 2345670,Engineering,DevOps Engineer,200000,2023-07-04
+Hamza,Qureshi,hamza.qureshi@company.com,+92 300 3456780,Marketing,Content Writer,100000,2024-03-22
+Noor,Baloch,noor.baloch@company.com,+92 321 4567890,Sales,Sales Development Rep,110000,2023-10-17
+Fahad,Mahmood,fahad.mahmood@company.com,+92 333 5678900,HR,Recruiter,120000,2024-05-05
+Zoya,Shah,zoya.shah@company.com,+92 345 6789010,Engineering,QA Engineer,140000,2023-06-12
+Imran,Yousaf,imran.yousaf@company.com,+92 300 7890120,Finance,Accountant,130000,2024-01-30
+Areeba,Latif,areeba.latif@company.com,+92 321 8901230,Product,Technical Product Manager,230000,2023-11-20
+Saad,Chaudhry,saad.chaudhry@company.com,+92 333 9012340,Design,Visual Designer,140000,2024-04-18
+Iqra,Aslam,iqra.aslam@company.com,+92 345 0123450,Engineering,Security Engineer,240000,2023-08-08
+Adnan,Akhtar,adnan.akhtar@company.com,+92 300 1234561,Marketing,SEO Specialist,115000,2024-02-09
+Hafsa,Rehman,hafsa.rehman@company.com,+92 321 2345671,Sales,Enterprise Sales Manager,195000,2023-09-01
+Shoaib,Butt,shoaib.butt@company.com,+92 333 3456781,HR,HR Manager,160000,2024-03-14
+Emaan,Javed,emaan.javed@company.com,+92 345 4567891,Engineering,Mobile Developer,180000,2023-12-05
+Kashif,Iqbal,kashif.iqbal@company.com,+92 300 5678902,Finance,Payroll Specialist,125000,2024-01-22
+Mahnoor,Zafar,mahnoor.zafar@company.com,+92 321 6789013,Product,Data Analyst,150000,2023-07-25
+Taimoor,Akram,taimoor.akram@company.com,+92 333 7890124,Design,Lead Product Designer,220000,2024-05-12
+Sidra,Hameed,sidra.hameed@company.com,+92 345 8901235,Engineering,Systems Architect,270000,2023-10-30
+Usama,Sadiq,usama.sadiq@company.com,+92 300 9012346,Marketing,Social Media Manager,130000,2024-02-18
+Rida,Nasir,rida.nasir@company.com,+92 321 0123457,Sales,Account Manager,150000,2023-11-14
+Talha,Gill,talha.gill@company.com,+92 333 1234568,HR,HR Coordinator,95000,2024-04-09
+Anam,Waheed,anam.waheed@company.com,+92 345 2345672,Engineering,Data Engineer,200000,2023-08-19
+Waleed,Sultan,waleed.sultan@company.com,+92 300 3456782,Finance,Finance Manager,210000,2024-01-11
+Nimra,Shafiq,nimra.shafiq@company.com,+92 321 4567892,Product,Product Owner,190000,2023-06-28
+Haris,Amin,haris.amin@company.com,+92 333 5678903,Design,Interaction Designer,160000,2024-03-03
+Laiba,Mirza,laiba.mirza@company.com,+92 345 6789014,Engineering,Cloud Engineer,210000,2023-12-18
+Bilal,Hashmi,bilal.hashmi@company.com,+92 300 7890125,Marketing,Email Marketing Manager,140000,2024-02-22
+Mina,Aziz,mina.aziz@company.com,+92 321 8901236,Sales,Inside Sales Representative,100000,2023-09-29
+Awais,Mir,awais.mir@company.com,+92 333 9012347,HR,Compensation Analyst,145000,2024-05-16
+Rameez,Janjua,rameez.janjua@company.com,+92 345 0123458,Engineering,Database Administrator,180000,2023-07-11
+Saba,Rauf,saba.rauf@company.com,+92 300 1234569,Finance,Auditor,135000,2024-01-26
+Faisal,Alam,faisal.alam@company.com,+92 321 2345673,Product,UX Writer,125000,2023-10-08
+Alisha,Khalid,alisha.khalid@company.com,+92 333 3456783,Design,Graphic Designer,110000,2024-04-25
+Zubair,Anwar,zubair.anwar@company.com,+92 345 4567893,Engineering,AI/ML Engineer,260000,2023-11-07
+Faryal,Zaidi,faryal.zaidi@company.com,+92 300 5678904,Marketing,PR Specialist,120000,2024-03-19
+Noman,Abbas,noman.abbas@company.com,+92 321 6789015,Sales,Regional Sales Manager,180000,2023-08-14
+Saira,Mansoor,saira.mansoor@company.com,+92 333 7890126,HR,Benefits Administrator,115000,2024-02-06
+Umer,Hayat,umer.hayat@company.com,+92 345 8901237,Engineering,Full Stack Developer,170000,2023-12-24
+Mahira,Noor,mahira.noor@company.com,+92 300 9012348,Finance,Investment Analyst,160000,2024-05-02
+Asad,Jamil,asad.jamil@company.com,+92 321 0123459,Product,Scrum Master,175000,2023-07-19
+Aina,Fatima,aina.fatima@company.com,+92 333 1234570,Design,Art Director,210000,2024-01-04
+Zain,Ali,zain.ali@company.com,+92 345 2345674,Engineering,Network Engineer,160000,2023-09-22
+Mishal,Ahmed,mishal.ahmed@company.com,+92 300 3456784,Marketing,Brand Manager,165000,2024-04-13
+Salman,Masood,salman.masood@company.com,+92 321 4567894,Sales,Sales Engineer,160000,2023-10-27
+Ramsha,Irfan,ramsha.irfan@company.com,+92 333 5678905,HR,Training Specialist,125000,2024-03-07
+Arsalan,Haider,arsalan.haider@company.com,+92 345 6789016,Engineering,Site Reliability Engineer,240000,2023-08-31
+Sehar,Kamal,sehar.kamal@company.com,+92 300 7890127,Finance,Budget Analyst,135000,2024-02-12
+Taha,Riaz,taha.riaz@company.com,+92 321 8901238,Product,Product Analyst,145000,2023-11-25
+Anaya,Yousuf,anaya.yousuf@company.com,+92 333 9012349,Design,UI Developer,150000,2024-05-09
+Khalid,Bin Waleed,khalid.waleed@company.com,+92 345 0123460,Engineering,Frontend Architect,220000,2023-07-07
+Mehwish,Hassan,mehwish.hassan@company.com,+92 300 1234571,Marketing,Copywriter,105000,2024-01-18
+Daniyal,Shah,daniyal.shah@company.com,+92 321 2345675,Sales,Key Account Manager,170000,2023-09-12
+Rabia,Rashid,rabia.rashid@company.com,+92 333 3456785,HR,HRIS Analyst,130000,2024-04-05
+Mustafa,Afridi,mustafa.afridi@company.com,+92 345 4567895,Engineering,Backend Architect,250000,2023-10-20
+Iman,Sajjad,iman.sajjad@company.com,+92 300 5678906,Finance,Financial Controller,230000,2024-03-27
+Shahzad,Niazi,shahzad.niazi@company.com,+92 321 6789017,Product,Director of Product,300000,2023-08-03
+Komal,Arif,komal.arif@company.com,+92 333 7890128,Design,UX/UI Manager,210000,2024-02-01
+Faizan,Aslam,faizan.aslam@company.com,+92 345 8901239,Engineering,Software Engineer,180000,2023-11-10
+Arooj,Mustafa,arooj.mustafa@company.com,+92 300 9012350,Marketing,Marketing Manager,180000,2024-05-20
+Nabeel,Sherwani,nabeel.sherwani@company.com,+92 321 0123461,Sales,VP of Sales,280000,2023-07-16
+Sumbal,Riaz,sumbal.riaz@company.com,+92 333 1234572,HR,HR Director,240000,2024-01-02
+Haroon,Rasheed,haroon.rasheed@company.com,+92 345 2345676,Engineering,Principal Engineer,290000,2023-09-06
+Maryam,Asghar,maryam.asghar@company.com,+92 300 3456786,Finance,Chief Financial Officer,350000,2024-04-30
+Aliya,Khan,aliya.khan@company.com,+92 321 4567896,Product,VP of Product,310000,2023-10-13
+Yasir,Hussain,yasir.hussain@company.com,+92 333 5678907,Design,Design Director,260000,2024-03-23
+Kiran,Shahzadi,kiran.shahzadi@company.com,+92 345 6789018,Engineering,Engineering Manager,270000,2023-08-26
+Shayan,Tariq,shayan.tariq@company.com,+92 300 7890129,Marketing,VP of Marketing,260000,2024-02-15
+Saad,Bin Khalid,saad.khalid@company.com,+92 321 8901240,Sales,Chief Revenue Officer,360000,2023-11-29
+Momal,Abbasi,momal.abbasi@company.com,+92 333 9012351,HR,Chief People Officer,300000,2024-05-14
+Uzair,Mahmood,uzair.mahmood@company.com,+92 345 0123462,Engineering,CTO,400000,2023-07-01
+Nida,Yasmin,nida.yasmin@company.com,+92 300 1234573,Finance,VP of Finance,280000,2024-01-20
+Ayan,Ali,ayan.ali@company.com,+92 321 2345677,Product,Chief Product Officer,330000,2023-09-18
+Malaika,Junaid,malaika.junaid@company.com,+92 333 3456787,Design,Chief Design Officer,320000,2024-04-22
+Ahad,Khan,ahad.khan@company.com,+92 345 4567897,Engineering,Staff Backend Engineer,240000,2023-10-04
+Aleena,Faisal,aleena.faisal@company.com,+92 300 5678908,Marketing,Growth Marketer,140000,2024-03-01
+Basit,Mehmood,basit.mehmood@company.com,+92 321 6789019,Sales,Sales Operations Manager,160000,2023-08-11
+Zara,Sheikh,zara.sheikh@company.com,+92 333 7890130,HR,Technical Recruiter,130000,2024-02-25
+Subhan,Godil,subhan.godil@company.com,+92 345 8901241,Engineering,Frontend Engineer,165000,2023-12-08
+Minal,Rizvi,minal.rizvi@company.com,+92 300 9012352,Finance,Financial Planner,150000,2024-05-07
+Ahmer,Nadeem,ahmer.nadeem@company.com,+92 321 0123463,Product,Product Marketing Manager,180000,2023-07-29
+Tooba,Khalil,tooba.khalil@company.com,+92 333 1234574,Design,Brand Designer,130000,2024-01-14
+Shahzaib,Anjum,shahzaib.anjum@company.com,+92 345 2345679,Engineering,QA Automation Engineer,160000,2023-09-25
+Rida,Fatima,rida.fatima@company.com,+92 300 3456788,Marketing,Content Strategist,135000,2024-04-03
+Mubashir,Hasan,mubashir.hasan@company.com,+92 321 4567898,Sales,Account Director,195000,2023-10-23
+Areej,Shahid,areej.shahid@company.com,+92 333 5678909,HR,People Operations Manager,165000,2024-03-17
+Sufyan,Ahmed,sufyan.ahmed@company.com,+92 345 6789020,Engineering,Data Scientist,210000,2023-08-05
+Zainab,Ali,zainab.ali2@company.com,+92 300 7890131,Finance,Treasury Analyst,145000,2024-02-20
+Arham,Siddiqui,arham.siddiqui@company.com,+92 321 8901242,Product,Product Designer,160000,2023-11-16
+Ayat,Noor,ayat.noor@company.com,+92 333 9012353,Design,UX Designer,150000,2024-05-11
+Zohaib,Hassan,zohaib.hassan@company.com,+92 345 0123464,Engineering,Junior Software Engineer,90000,2023-07-15
