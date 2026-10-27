@@ -1,6 +1,0 @@
-{
-  "name": "Employee Management System",
-  "description": "A graduate-level Employee Management System featuring a Django REST Framework backend and a modern, responsive vanilla HTML, CSS, and JavaScript dashboard.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
