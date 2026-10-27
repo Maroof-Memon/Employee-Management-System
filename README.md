@@ -1,27 +1,41 @@
 # Employee Management System
 
-A full-stack Employee Management System built with **Node.js, Express, TypeScript** backend serving RESTful CRUD APIs, and a modern **vanilla HTML, CSS, JavaScript** frontend with advanced features.
+A full-stack Employee Management System with **two backend options**: 
+- **Node.js + Express + TypeScript** (default/current setup)
+- **Django REST Framework + Python** (in `employee_project/` directory)
+
+Frontend built with modern vanilla **HTML, CSS, JavaScript** featuring card/table views, multi-currency conversion, CSV import, search/filters, and bulk operations.
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-├── server.ts          # Express server with REST API endpoints
+├── server.ts          # Express server with REST API endpoints (Node.js option)
 ├── app.js             # Frontend JavaScript (CRUD, filters, CSV import, currency)
 ├── index.html         # Main HTML UI
 ├── style.css          # Styling
-├── package.json       # Dependencies and scripts
+├── package.json       # Dependencies and scripts (Node.js)
 ├── tsconfig.json      # TypeScript configuration
 ├── vite.config.ts     # Vite configuration
-└── src/               # React/TypeScript source files
+├── src/               # React/TypeScript source files
+├── requirements.txt   # Python dependencies (Django option)
+├── employee_project/  # Django REST Framework backend
+│   ├── manage.py
+│   ├── employee_project/
+│   └── employees/
+└── frontend/          # Standalone Django-compatible frontend files
 ```
 
 ---
 
 ## 🚀 Setup & Run Instructions
 
-### 1. Prerequisites
+You can run this project using either option below:
+
+### Option 1: Node.js + Express (Quick Start - Recommended)
+
+#### Prerequisites
 Ensure you have **Node.js 18+** and **npm** installed.
 
 ```bash
@@ -29,12 +43,12 @@ node --version
 npm --version
 ```
 
-### 2. Install Dependencies
+#### Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. Run the Development Server
+#### Run the Server
 ```bash
 npm start
 ```
@@ -44,6 +58,65 @@ The app will be available at:
 
 The REST API will be available at:
 `http://localhost:3000/api/employees/`
+
+---
+
+### Option 2: Django REST Framework (Python)
+
+#### Prerequisites
+Ensure you have **Python 3.10+** and **pip** installed.
+
+```bash
+python --version
+pip --version
+```
+
+#### Create and Activate Virtual Environment
+
+**On macOS / Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**On Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### Run Migrations
+```bash
+cd employee_project
+python manage.py makemigrations
+python manage.py migrate
+```
+
+#### (Optional) Create Admin Superuser
+```bash
+python manage.py createsuperuser
+```
+
+#### Run Django Server
+```bash
+python manage.py runserver
+```
+
+The REST API will be available at:
+`http://127.0.0.1:8000/api/employees/`
+
+#### Run Frontend (for Django backend)
+You can open `frontend/index.html` directly in browser, or serve it:
+```bash
+cd frontend
+python -m http.server 3000
+```
+Open `http://localhost:3000` in your browser. (Django backend runs on port 8000)
 
 ---
 
