@@ -1,117 +1,55 @@
 # Employee Management System
 
-An Employee Management System with a Django REST Framework backend and a simple HTML, CSS, JavaScript frontend.
+A full-stack Employee Management System built with **Node.js, Express, TypeScript** backend serving RESTful CRUD APIs, and a modern **vanilla HTML, CSS, JavaScript** frontend with advanced features.
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-├── employee_project/                  # Django backend project directory
-│   ├── manage.py                      # Django administrative management script
-│   ├── db.sqlite3                     # SQLite database (auto-generated)
-│   ├── employee_project/              # Project configuration package
-│   │   ├── __init__.py
-│   │   ├── asgi.py                    # ASGI config for async servers
-│   │   ├── settings.py                # Installed apps, middleware, CORS, SQLite setup
-│   │   ├── urls.py                    # Root URL router delegating to /api/
-│   │   └── wsgi.py                    # WSGI config for production web servers
-│   └── employees/                     # Dedicated application for employee management
-│       ├── __init__.py
-│       ├── admin.py                   # Django admin registration
-│       ├── apps.py                    # App configuration
-│       ├── models.py                  # Employee model schema (SQLite)
-│       ├── serializers.py             # DRF ModelSerializer for validation & JSON transformation
-│       ├── views.py                   # DRF ModelViewSet (full CRUD handlers)
-│       └── urls.py                    # DefaultRouter registering /api/employees/
-├── frontend/                          # Standalone plain frontend
-│   ├── index.html                     # Semantic HTML5 UI layout
-│   ├── style.css                      # Modern custom CSS (Inter font, indigo theme, cards/tables)
-│   └── app.js                         # Vanilla JS fetch() API client, client-side search, modals
-├── requirements.txt                   # Python dependencies (Django, DRF, django-cors-headers)
-└── README.md                          # Full setup, migration, and Postman API documentation
+├── server.ts          # Express server with REST API endpoints
+├── app.js             # Frontend JavaScript (CRUD, filters, CSV import, currency)
+├── index.html         # Main HTML UI
+├── style.css          # Styling
+├── package.json       # Dependencies and scripts
+├── tsconfig.json      # TypeScript configuration
+├── vite.config.ts     # Vite configuration
+└── src/               # React/TypeScript source files
 ```
 
 ---
 
-## 🚀 Step-by-Step Backend Setup Instructions
+## 🚀 Setup & Run Instructions
 
 ### 1. Prerequisites
-Ensure you have **Python 3.10+** and **pip** installed on your system.
+Ensure you have **Node.js 18+** and **npm** installed.
 
 ```bash
-python --version
-pip --version
+node --version
+npm --version
 ```
 
-### 2. Create and Activate a Virtual Environment
-It is recommended to run the project in an isolated virtual environment:
-
-**On macOS / Linux:**
+### 2. Install Dependencies
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+npm install
 ```
 
-**On Windows:**
+### 3. Run the Development Server
 ```bash
-python -m venv venv
-venv\Scripts\activate
+npm start
 ```
 
-### 3. Install Dependencies
-Install Django, Django REST Framework, and Django CORS Headers:
-```bash
-pip install -r requirements.txt
-```
+The app will be available at:
+`http://localhost:3000`
 
-### 4. Run Migrations
-Generate and apply migrations to initialize the default SQLite database (`db.sqlite3`):
-
-```bash
-cd employee_project
-python manage.py makemigrations
-python manage.py migrate
-```
-
-### 5. (Optional) Create an Admin Superuser
-To access the Django Admin dashboard at `http://127.0.0.1:8000/admin/`:
-```bash
-python manage.py createsuperuser
-```
-Follow the interactive prompts to set a username, email, and password.
-
-### 6. Run the Development Server
-Start the Django development server:
-```bash
-python manage.py runserver
-```
-
-The REST API will now be running at:
-`http://127.0.0.1:8000/api/employees/`
+The REST API will be available at:
+`http://localhost:3000/api/employees/`
 
 ---
 
-## 🌐 Running the Frontend
+## 📬 REST API Endpoint Documentation
 
-Because the frontend is built entirely with vanilla HTML, CSS, and JavaScript, you can run it in multiple easy ways:
-
-1. **Option A: Direct Browser Opening**
-   - Simply double-click `frontend/index.html` or open it with Google Chrome / Firefox / Safari.
-   - Note: Because CORS is configured with `CORS_ALLOW_ALL_ORIGINS = True` in `settings.py`, requests to `http://127.0.0.1:8000/api/employees/` are accepted without browser origin restrictions.
-
-2. **Option B: Live Server (VS Code Extension) or Python HTTP Server**
-   ```bash
-   cd frontend
-   python -m http.server 3000
-   ```
-   Open `http://localhost:3000` in your web browser.
-
----
-
-## 📬 Postman & REST API Endpoint Documentation
-
-Base API URL: `http://127.0.0.1:8000/api/employees/`
+Base API URL: `http://localhost:3000/api/employees/`
 
 All endpoints return JSON responses. Include header `Content-Type: application/json` for POST, PUT, and PATCH.
 
